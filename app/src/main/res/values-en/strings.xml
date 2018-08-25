@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloWorldTurbo</string>
+    <string name="str_novo_pedido">New order</string>
+</resources>

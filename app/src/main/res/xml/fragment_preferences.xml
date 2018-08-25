@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:key="@string/pref_user_cpf"
+        android:title="@string/cpf"
+        android:summary="@string/cpf_para_logar_no_provedor_de_vendas"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:key="@string/pref_user_login"
+        android:title="@string/login"
+        android:summary="@string/login_do_provedor_de_vendas"
+        android:inputType="text"/>
+    <EditTextPreference
+        android:key="@string/pref_user_password"
+        android:title="@string/password"
+        android:summary="@string/password_para_logar_no_provedor_de_vendas"
+        android:inputType="textPassword"/>
+</PreferenceScreen>
